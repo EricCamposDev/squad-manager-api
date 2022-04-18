@@ -11,5 +11,3 @@
   <li>DDD</li>
   <li>S.O.L.I.D</li>
 </ul>
-
-<p>Para iniciar a api: `yarn dev`</p>
