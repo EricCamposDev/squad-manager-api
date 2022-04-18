@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/jest": "^27.4.1",
+    "@types/nedb": "^1.8.12",
+    "@types/uuidv4": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "fs": "^0.0.1-security",
+    "nedb": "^1.8.0",
+    "nedb-async": "^0.1.6",
+    "ts-node": "^10.7.0",
+    "ts-node-dev": "^1.1.8",
+    "tsc": "^2.0.4",
+    "typescript": "^4.6.3",
+    "uuidv4": "^6.2.13"
+  },
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "express": "^4.17.3",
+    "uuid": "^8.3.2"
+  }
+}
